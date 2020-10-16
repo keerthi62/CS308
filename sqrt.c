@@ -17,9 +17,9 @@ int main(int argc, char* argv[]) {
         	printf("br_neagtiveSupport: Sqrt of %d is %fi\n",input,sqrt(-1*input));
         }
         else{
-		printf("Sqrt of %d is %f\n",input,sqrt(input));
+		printf("br_neagtiveSupport: Sqrt of %d is %f\n",input,sqrt(input));
         }
-	printf("End of program. Exiting.");
+	printf("br_neagtiveSupport: End of program. Exiting.");
 	return(0);
 
 } // end main
