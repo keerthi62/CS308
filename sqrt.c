@@ -14,12 +14,12 @@ int main(int argc, char* argv[]) {
 
 	int input = atoi(argv[1]);
         if(input < 0) {
-        	printf("br_neagtiveSupport: Sqrt of %d is %fi\n",input,sqrt(-1*input));
+        	printf("DEBUG: Sqrt of %d is %fi\n",input,sqrt(-1*input));
         }
         else{
-		printf("br_neagtiveSupport: Sqrt of %d is %f\n",input,sqrt(input));
+		printf("DEBUG: Sqrt of %d is %f\n",input,sqrt(input));
         }
-	printf("br_neagtiveSupport: End of program. Exiting.");
+	printf("DEBUG: End of program. Exiting.");
 	return(0);
 
 } // end main
